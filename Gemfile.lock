@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/fimassuda/fidev_view_tool
+  revision: 925ff3214dfcf0ed6417fe41de200c64a71ee64b
+  specs:
+    fidev_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -186,6 +192,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.2, >= 4.2.1)
+  fidev_view_tool!
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   jquery-rails

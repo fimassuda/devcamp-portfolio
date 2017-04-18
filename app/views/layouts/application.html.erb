@@ -22,7 +22,7 @@
               autoplay: true,
               loop: true,
               muted: true,
-              poster: 'home_bg.jpg'
+              poster: 'home-bg.jpg'
             )
             %>
 
@@ -31,6 +31,8 @@
           <%= yield %>
 
           <%= render "shared/application_footer" %>
+
+          <%= render 'shared/alerts' %>
 
           <%= source_helper("application") %>
         </div>
